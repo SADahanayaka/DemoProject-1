@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*======Header Section====*/
+.header-outer{
+    position: sticky;
+    z-index: 500;
+    top: 0 ;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    display: flex;
+}
+.header-left, .header-right{
+    flex: 1;
+   padding: 0 13px;
+}
+/*---------Header left---------*/
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left > img{
+    height: 40px;
+}
+/*---------Header left---------*/
+
+/*---------Header right Nav bar---------*/
+.header-right>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-right>ul > li{
+    margin-right: 8px;
+    border-bottom: 3px solid transparent;
+    padding: 5px 15px;
+}
+.header-right>ul > li:last-child{
+    margin-right: 0;
+}
+.header-right>ul > li>a{
+    text-decoration: none;
+    color: #2c3e50;
+}
+.header-right>ul > li:hover{
+    border-bottom: 3px solid #95a5a6;
+    cursor: pointer;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+/*---------Header right Nav bar---------*/
+/*======Header Section====*/
+
+/*======Main Slider====*/
+.slider-main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/happy-financial-advisor-young-couple-communicating-while-going-through-paperwork-during-meeting_637285-3042.jpg?w=740&t=st=1676282933~exp=1676283533~hmac=3824d303e1e723012ecf6d318f4e3bb212bcf14b23a84067519743361b8dc100');
+}
+/*---------Slider box---------*/
+
+.slider-box{
+    width: 450px;
+    height: auto;
+    background-color: #2980b9;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    padding: 10px;
+}
+.slider-header-text{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.slider-para-text{
+    color: white;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: justify;
+}
+.slider-button{
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 8px 20px;
+    color: white;
+    background: none;
+}
+/*---------Slider box---------*/
+
+/*======Main Slider====*/
+
+/*======About Us Slider====*/
+
+/*---------About main outer---------*/
+.about-main-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+/*---------About main outer---------*/
+
+/*---------About main inner---------*/
+.about-main-inner{
+    width: 70%;
+    height: auto;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+
+/*---------About description outer---------*/
+.about-description-outer{
+    width: 75%;
+    height: auto;
+    /*border: 1px solid red;*/
+    position: absolute;
+    right: 100px;
+    margin-top: 50px;
+    display: flex;
+    
+}
+/*---------About description left & right---------*/
+.about-description-left, .about-description-right{
+    flex: 1;
+    height: 400px;
+    /*border: 1px solid red;*/
+}
+
+.about-description-right{
+    margin-top: 70px;
+}
+.about-description-left{
+    background-image: url('https://img.freepik.com/free-photo/busy-secretary-writing_1098-3487.jpg?w=360&t=st=1676355070~exp=1676355670~hmac=bd62a42e40b890648f0b2e087017948c0e4fed08d882ca6302b20ac364536d03');
+    background-size: cover;
+    background-position: top;
+}
+.about-description-right{
+    background-color: #00b894;
+}
+.aboutUs-header-text{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.aboutUs-para{
+    color: white;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.aboutUs-button{
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 8px 20px;
+    color: white;
+    background: none;
+}
+/*---------About description left & right---------*/
+
+/*---------About description outer---------*/
+.decorator01{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #fdcb6e;
+    top: 60px;
+    right: 35px;
+
+}
+.about-description-inner{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 40px;
+    /*border: 1px solid red;*/
+    background-image: url('https://img.freepik.com/free-photo/businesswomen-meeting_144627-37633.jpg?w=360&t=st=1676357835~exp=1676358435~hmac=6db70a0fc0c514b0588c977a8148ddc224144249860a6cb87d5e683e9479f0e8');
+    background-size: cover;
+    background-position: right;
+}
+/*---------About main inner---------*/
+
+/*======About Us Slider====*/
+
+/*======Services Slider====*/
+
+.services-outer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0984e3;
+    padding: 50px 0;
+}
+.service-inner{
+    width: 85%;
+    height: auto;
+    border: 1px solid red;
+    
+}
+.What-we-do-header{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+.services-para{
+    color: white;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+    text-align: justify;
+}
+
+.box-wrapper{
+    width: 100%;
+    height: 250px;
+    border: 1px solid red;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-inner{
+    width: 22%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid red;
+}
+/*======Services Slider====*/
+
+/*======Testimonials Slider====*/
+
+.testimonials-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    border: 1px solid red;
+}
+
+/*======Testimonials Slider====*/
+
+/*======Gallery Slider====*/
+
+.gallery-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    border: 1px solid red;
+}
+
+/*======Gallery Slider====*/
+
+/*======Contact Us====*/
+
+.contactUs-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    border: 1px solid red;
+}
+
+/*======Contact Us====*/
